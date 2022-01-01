@@ -1,0 +1,304 @@
+/*Default css*/
+body{
+  margin: 0;
+  padding: 0;
+   -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+/*font-family: 'Lato', sans-serif;*/
+/* Default CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+p a{
+  background: transparent !important;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+
+audio,
+canvas,
+video {
+   display: inline-block;
+}
+a{
+  outline: none !important;
+}
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+
+[hidden] { display: none; }
+
+code, kbd, pre, samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+ins {
+   background-color: #ff9;
+   color: #000;
+   text-decoration: none;
+}
+
+mark {
+   background-color: #A7F4F6;
+   color: #555;
+}
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+   border-bottom: 1px dotted;
+   cursor: help;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+button{
+  outline: none !important;
+}
+input
+{
+    outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+/**************************************/
+/************ Header  Area*************/
+/************************************/
+
+.main {
+    background-color: #F9FBFD;
+    background-size: cover;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background-attachment:fixed;
+    padding: 20px;
+
+}
+.main_contetn {
+    border: solid 1px #eaeaea;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    width: 820px;
+    margin: 0 auto 15px;
+    padding: 40px;
+    overflow: hidden;
+}
+.pass_top {
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 35px;
+}
+.pass_top.pass_top p {
+    display: inline-block;
+    color: #b0b7bf;
+    font-size: 15px;
+    letter-spacing: .0714em;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+        padding-bottom: 4px;
+}
+.pass_top h1 {
+    color: #d32d27;
+   font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.pass_top h4 {
+    color: #506175;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+label {
+    width: 152px;
+}
+.select_single {
+    position: relative;
+}
+.select_single select {
+    padding: 7px 11px;
+    border: 1px solid #ccc;
+    color: #999;
+    width: 80px;
+}
+.select_single:after {
+    position: absolute;
+    content: "";
+    background: url(../images/2.png);
+    width: 11px;
+    height: 7px;
+    display: block;
+    top: 24px;
+    right: 70px;
+    background-size: 100% 100%;
+    pointer-events: none;
+}
+.select_single_left {
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.password_area {
+    width: 60%;
+    float: left;
+    overflow: hidden;
+    padding: 38px 10px;
+}
+.select_single {
+    padding: 11px 0px;
+}
+.input_password_g {
+    margin-bottom: 30px;
+}
+.input_password_g input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border: 1px solid #DDD;
+    padding: 18px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.input_password_btn {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.input_password_btn input, .input_password_btn button {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    padding: 15px 34px;
+    border-radius: 25px;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.1),0 1px 1px 0 rgba(0,0,0,0.2);
+    background: #d32d27;
+    color: #fff;
+    text-transform: capitalize;
+    width: 199px;
+}
+.input_password_btn button:hover, .input_password_btn input:hover {
+    background-color: #af0809;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input_password_g input::-webkit-input-placeholder{
+  color:#ddd;
+}
+
+.input_password_g input::-moz-placeholder{
+  color:#ddd;
+}
+
+.input_password_g input:-ms-input-placeholder{
+  color:#ddd;
+}
+
+.input_password_g input::placeholder{
+  color:#ddd;
+}
+
+select::-ms-expand {
+    display: none !important;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+
+.main_contetn_content {
+    border: solid 1px #eaeaea;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    width: 820px;
+    margin: 0 auto 15px;
+    padding: 40px;
+    overflow: hidden;
+}
+.main_content_top {
+    margin: 73px 0px 30px 0px;
+    text-align: center;
+}
+
+.main_content_top {}
+.main_content_top h1 {
+    text-align: center;
+    width: 51%;
+    margin: auto;
+    line-height: 27px;
+    font-size: 19px;
+    color: #4A4A4A;
+}
+
+.main_contetn_content p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
